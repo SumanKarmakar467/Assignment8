@@ -26,8 +26,7 @@ app.get('/', (req, res) => {
 // the url 
 app.use('/api/tasks', taskRoutes);
 
-// MongoD connection  
-console.log("Mongo URL:", process.env.MONGO_URL);
+
 // Connect to Database
 mongoose.connect(process.env.MONGO_URL)
     .then(() => {

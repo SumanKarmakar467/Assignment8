@@ -36,3 +36,21 @@
     npm install axios
     npm install date-fns
     
+
+# Workflow 
+                    src
+                    ⬇️
+                main.jsx
+                    ⬇️
+                App.jsx  
+                    ⬇️
+( componets )   Navbar  &   Home ( pages )
+                              ⬇️
+                            TaskDetails & TaskForm ( components )
+
+    TaskDetails - delete function & change the circle to be checked 
+    TaskForm - Add a new task 
+
+# Display the data
+    I do not use local storage
+    I use   window.location.reload(); automatically refresh and show the new data or delete the data 

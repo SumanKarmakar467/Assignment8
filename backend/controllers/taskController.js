@@ -50,7 +50,6 @@ exports.createTask = async (req, res) => {
     try {
         const task = await Task.create({
             title,
-            description,
             status,
             priority,
             dueDate

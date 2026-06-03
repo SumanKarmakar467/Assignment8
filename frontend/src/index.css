@@ -114,6 +114,15 @@ header h1{
 }
 
 /* Form  */
+.add-task{
+  margin:7px;
+  color:var(--primary);
+}
+.status-icon{
+  cursor:pointer;
+  font-size:30px;
+  color:#077A7D;
+}
 .enter-task{
   padding:7px;
   margin:7px;
