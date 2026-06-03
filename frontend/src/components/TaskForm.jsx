@@ -14,18 +14,7 @@ const TaskForm = () => {
 
   // title & priority is not given 
   if (!title || !priority) {
-    setError("All input fields are required");
-    return;
-  }
-  // title is not entered 
-  if (!title) {
-    setError("Please Enter The Task");
-    return;
-  }
-
-  // priority is not entered
-  if (!priority) {
-    setError("Please Choose Priority");
+    setError("All Input Fields Are Required !");
     return;
   }
 
@@ -97,7 +86,7 @@ const TaskForm = () => {
           Add
         </button>
 
-        {error && <div>{error}</div>}
+        {error && <div className="error">{error}</div>}
 
       </form>
     </div>
