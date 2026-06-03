@@ -6,6 +6,7 @@
     npm i nodemon - install nodemon
     npm i dotenv - install dotenv for the PORT no & the mongoDb URL  
     npm i mongoose - install mongoose
+    npm i cors - 
     npm run dev - run the backend
 
 
@@ -32,4 +33,6 @@
     npm create vite@latest - install the vite react 
     npm i react-router-dom - for routes 
     npm run dev - run the frontend
+    npm install axios
+    npm install date-fns
     

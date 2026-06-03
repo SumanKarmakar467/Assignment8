@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --primary:#077A7D;
+  --boxColor:#077A7D;
+  --color:#EEEEEE;
+  --error:red;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  width:100%;
+  background-color: white;
+  font-style:"Lato", sans-serif;
+}
+/* Navbar */
+header{
+  background-color: var(--primary);
+}
+header .container{
+  max-width:1400px;
+  margin: 0 auto;
+  padding:10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a{
+  padding:20px;
+  color:white;
+  text-decoration: none;
+}
+header h1{
+  color:white;
+  text-decoration: none;
+  color:black;
+}
+
+/* Home  */
+.home{
+  max-width:1280px;
+  margin:0 auto;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  padding:20px;
+  display: flex;
+  gap:30px;
+  align-items: flex-start;
+
+}
+.taskdetail{
+  flex:2;
+}
+.task-details{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  border:2px solid var(--boxColor);
+  border-radius:15px;
+
+  padding:15px 20px;
+  margin-bottom:12px;
+
+  background:white;
+}
+
+.para1{
+  width:180px;
+  font-size:1.8rem;
+  font-weight:bold;
+}
+
+.para2{
+  width:120px;
+  text-align:center;
+}
+
+.para3{
+  width:80px;
+  display:flex;
+  justify-content:center;
+}
+
+.para4{
+  width:180px;
+  text-align:center;
+}
+
+.delete-icon{
+  width:60px;
+  display:flex;
+  justify-content:center;
+  cursor:pointer;
+}
+.material-symbols-outlined{
+  cursor:pointer;
+  color:var(--primary);
+  font-size:28px;
+  transition:0.2s;
+}
+
+.material-symbols-outlined:hover{
+  color:red;
+}
+.taskform{
+  flex:1.5;
+  background:white;
+  padding:20px;
+  border-radius:10px;
+}
+
+/* Form  */
+.enter-task{
+  padding:7px;
+  margin:7px;
+  font-size: 1rem;
+  color:var(--primary);
+  transition: all ease 0.2s;
+}
+.enter-task:hover{
+  border:2px solid var(--primary);
+}
+.add{
+  padding:7px;
+
+}
+.prio{
+  font-size: 1rem;
+  margin:0 7px;
+}
+.inputs{
+  padding:5px;
+  width:100%;
+  margin-top:5px;
+}
+select{
+  padding:5px;
+  margin:7px;
+  color:var(--primary);
+  font-size: 1rem;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.set{
+  width:150px;
+  padding:7px;
+  margin:10px auto 0 auto; /* centers button */
+  background:#077A7D;
+  color:white;
+  border:2px solid transparent;
+  border-radius:30px;
+  cursor:pointer;
+  transition: all ease 0.2s;
+}
+.set:hover{
+  border:2px solid var(--primary);
+  background-color: white;
+  color:var(--primary);
+}
+
